@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Pushster;
+  font-display: swap;
+  src: url("../fonts/Pushster-Regular.woff2") format("woff2"), url("../fonts/Pushster-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: flex;
+}
+
+::-moz-placeholder {
+  color: red;
+  border: 1px solid red;
+  display: flex;
+}
+
+:-ms-input-placeholder {
+  color: red;
+  border: 1px solid red;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+::-ms-input-placeholder {
+  color: red;
+  border: 1px solid red;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+::placeholder {
+  color: red;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  background-color: #dabfbf;
+  background: url("../images/i-am.jpg");
+}
+body h1 {
+  font-family: Pushster;
+  font-weight: 400;
+  color: green;
+  font-size: 60px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
